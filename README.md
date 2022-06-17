@@ -55,7 +55,7 @@ this challenge helped to understand not to add unneccessary thing in the solutio
 
 ### Continued development
 
-In future i will create this using javaScript as this challenge required only css and html for begineer.
+i done this challenge using only css and html as I still have to learn about javascript .In future i will be recreating this using javascript.
 
 ## Author
 
