@@ -1,0 +1,140 @@
+@import url(https://fonts.google.com/specimen/Overpass);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+
+}
+body{
+    background-color: hsl(216, 12%, 8%);
+}
+.sec,.sec2{
+    background-color: hsl(213, 19%, 18%,0.5);
+    border-radius:10px;
+    display: grid;
+    grid-template-rows: repeat(5,50px);
+    row-gap:25px;
+    align-items: flex-end;
+    justify-items: start;
+    top:25vh;
+    position:absolute;
+    margin: 15px;
+    padding: 1.5rem;
+
+}
+.star{
+    background-color: hsl(216, 12%, 54%,0.1);
+    
+    width:2.5em;
+    height: 2.5em;
+    border-radius: 100%;
+    
+}
+img{
+    width: 0.8rem;
+    height: 0.8rem;
+    position: relative;
+    top:9px;
+    left:13px;
+}
+h2{
+    line-height: 4rem;
+    font-weight: 700;
+    color: white;
+}
+p{
+    line-height: 1.5em;
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
+}
+
+.rate{
+    list-style: none;
+    display: inline-block;
+    background-color: hsl(216, 12%, 54%,0.1);
+    width:3em;
+    height: 3em;
+    border-radius: 100%;
+    margin-right: 8px;
+   text-align: center;
+   padding: 15px;
+   color:  hsl(217, 12%, 63%);
+}
+.circles{
+    justify-self: center;
+}
+
+a{
+    text-decoration: none;
+    letter-spacing: 0.3rem;
+    color: white;
+    width: 20rem;
+    border-radius: 45px;
+    background-color:hsl(25, 97%, 53%);
+    text-align: center;
+    text-transform: uppercase;
+   padding: 10px 10px 10px 10px;
+    justify-self: center;
+   align-self: flex-start;
+}
+#o{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+
+/* for thank you.html */
+
+.sec2{
+    grid-template-rows:100px 50px 50px 80px;
+    row-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+.bingo{
+    width: 50%;
+    height: 100%;
+}
+#you{
+
+color:hsl(25, 97%, 53%,0.8);
+background-color: hsl(217, 12%, 63%,0.1);
+border-radius: 45px;
+margin-top: 20px;
+opacity: 0.9;
+padding: 5px 10px 5px 10px;
+}
+
+#ops{
+    margin-top:-30px;
+    text-align:center;
+}
+
+@media  (min-width:1200px) {
+    
+    .sec2 ,.sec{
+        position: relative;
+        transition: translate(-50%,-50%);
+        top:20vh;
+        left:35vw;
+        width: 360px;
+    }
+
+    .rate:hover{
+        background-color: hsl(25, 97%, 53%);
+        color: white;
+        cursor: pointer;
+        transition: all 0.4s ease;
+    }
+    
+    a:hover{
+        color:hsl(25, 97%, 53%);
+        background-color: white;
+        transition: all 0.8s ease;
+
+    }
+
+    
+}
